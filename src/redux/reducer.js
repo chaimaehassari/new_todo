@@ -1,10 +1,5 @@
-import { 
-  ADD_TASK, 
-  TOGGLE_TASK, 
-  EDIT_TASK, 
-  DELETE_TASK, 
-  FILTER_TASKS // Nom corrigé ici
-} from './actions';
+import { ADD_TASK, DELETE_TASK, EDIT_TASK, TOGGLE_TASK, FILTER_TASKS } from './actionTypes.js';
+
 
 const initialState = {
   tasks: [],
